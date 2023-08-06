@@ -2,7 +2,7 @@ const App: React.FC = () => {
 
    const TestComponent = () => {
       return (
-         <h1 style={ {color: 'red'} }>Привет, мир!</h1>
+         <h1 className="app">Привет, мир!</h1>
       )
    }
 
