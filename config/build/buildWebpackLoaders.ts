@@ -4,16 +4,16 @@ import { buildCssLoader } from './loaders/buildCssLoader';
 
 export const buildWebpackLoaders = (options: BuildOptions): webpack.RuleSetRule[] => {
    
-   const tsLoader = {
-      test: /\.tsx?$/,
-      use: 'ts-loader',
-      exclude: /node_modules/,
-   };   
+    const tsLoader = {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+    };   
 
-   const cssLoader = buildCssLoader(options.isDev);
+    const cssLoader = buildCssLoader(options.isDev);
 
-   return [
-      cssLoader,
-      tsLoader,
-   ];
+    return [
+        cssLoader,
+        tsLoader,
+    ];
 };
