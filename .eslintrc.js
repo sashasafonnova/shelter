@@ -4,10 +4,10 @@ module.exports = {
         'es2021': true
     },
     'settings': {
-        "react": {
-          "version": "detect"
+        'react': {
+            'version': 'detect'
         }
-      },
+    },
     'extends': [
         'eslint:recommended',
         'plugin:react/recommended',
@@ -29,10 +29,6 @@ module.exports = {
             'error',
             4
         ],
-        'linebreak-style': [
-            'error',
-            'windows'
-        ],
         'quotes': [
             'error',
             'single'
@@ -42,5 +38,7 @@ module.exports = {
             'always'
         ],
         'react/react-in-jsx-scope': 0,
+        'react/display-name': 0,
+        'linebreak-style': ['warning', 'windows'],
     }
 };

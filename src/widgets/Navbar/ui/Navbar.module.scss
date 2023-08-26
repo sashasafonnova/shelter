@@ -1,0 +1,16 @@
+.content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 0px;
+}
+
+.list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.listItem:not(:last-child) {
+   margin-right: 20px;
+}

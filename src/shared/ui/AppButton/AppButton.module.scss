@@ -1,0 +1,28 @@
+.button {
+   background: transparent;
+   border-radius: var(--ui-border-radius);
+   padding: 6px 12px;
+}
+
+.hover {
+   &:hover {
+      opacity: 60%;
+   }
+}
+
+.outlineBlack {
+   border: 2px solid var(--dark-color);
+}
+
+.outlineColor {
+   border: 2px solid var(--secondary-color);
+}
+
+.bgSecondary {
+   background-color: var(--secondary-color);
+}
+
+.bgPrimary {
+   background-color: var(--primary-color);
+}
+
